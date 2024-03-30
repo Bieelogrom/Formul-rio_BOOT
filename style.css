@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Cabin", sans-serif;
+}
+
+:root{
+  --cor-principal: #912BBC;
+  --cor-secundaria: #D875C7;
+  --cor-terciaria: #E9A89B;
+  --cor-quarciaria: #FFEBB2;
+
+}
+
+.section-form{
+  height: 100vh;
+  background: linear-gradient(to right, var(--cor-principal), var(--cor-secundaria));
+}
+
+::placeholder{
+  color: #fff;
+}
+
+
+.form-outros{
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.botao-form{
+  width: 100%;
+}
+
+::placeholder{
+  color: white !important; 
+  opacity: 1;
+}
+
